@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:viewModel="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent" xmlns:local="clr-namespace:ProdajaMobilnihAplikacija.Mobile.Converters"
+             mc:Ignorable="d"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.SoftverPage">
+
+
+    <ContentPage.BindingContext>
+        <viewModel:SoftverViewModel></viewModel:SoftverViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageConverter x:Key="imgConv"></local:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+   
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="WhiteSmoke">
+            <Label TextColor="#a6ca39" FontAttributes="Bold" Text="Kategorija Aplikacije:" FontSize="Title" HorizontalOptions="Center" />
+
+            <Picker ItemsSource="{Binding Kategorija}" SelectedItem="{Binding SelectedTKategorija}" ItemDisplayBinding="{Binding Naziv}"></Picker>
+
+            <ListView ItemsSource="{Binding SoftverList}" ItemSelected="ListView_ItemSelected_1">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Padding="10" Orientation="Vertical">
+
+
+                                <StackLayout Padding="10" Orientation="Vertical">
+                                    <StackLayout >
+                                        <Image Margin="0,10,0,7" HeightRequest="100" WidthRequest="100" Source="{Binding SlikaThumb, Converter={StaticResource imgConv}}">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer ></TapGestureRecognizer>
+                                            </Image.GestureRecognizers>
+                                        </Image>
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Vertical">
+                                        <Label HorizontalTextAlignment="Center" TextColor="#a6ca39" Text="Naziv" FontAttributes="Bold"/>
+                                        <Entry HorizontalTextAlignment="Center" Text="{Binding Naziv}" IsReadOnly="True"/>
+
+                                        <Label HorizontalTextAlignment="Center" TextColor="#a6ca39" Text="Verzija" FontAttributes="Bold"/>
+                                        <Entry HorizontalTextAlignment="Center" Text="{Binding Verzija}" IsReadOnly="True"/>
+
+                                        <Label HorizontalTextAlignment="Center" TextColor="#a6ca39" Text="Cijena" FontAttributes="Bold"/>
+                                        <Entry HorizontalTextAlignment="Center" Text="{Binding Cijena}" IsReadOnly="True"/>
+                                    </StackLayout>
+
+
+                                </StackLayout>
+                             
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

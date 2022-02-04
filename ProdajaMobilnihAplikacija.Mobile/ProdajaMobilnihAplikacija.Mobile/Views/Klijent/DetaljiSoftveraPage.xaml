@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewModel="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent" xmlns:local="clr-namespace:ProdajaMobilnihAplikacija.Mobile.Converters"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.DetaljiSoftveraPage">
+
+
+    <ContentPage.BindingContext>
+        <viewModel:DetaljiSoftveraViewModel></viewModel:DetaljiSoftveraViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageConverter x:Key="imgConv"></local:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout BackgroundColor="#a6ca39">
+                <StackLayout HeightRequest="15"></StackLayout>
+                <StackLayout>
+                    <Label HorizontalOptions="Center" TextColor="White" FontAttributes="Bold" Text="Dojmovi korisnika:" FontSize="Title"/>
+                </StackLayout>
+                <StackLayout HeightRequest="15"></StackLayout>
+
+            </StackLayout>
+            
+            <ListView ItemsSource="{Binding MojSoftverList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Padding="10" Orientation="Vertical">
+
+
+
+                                <StackLayout Orientation="Vertical">
+                                    <Label HorizontalTextAlignment="Center" TextColor="#a6ca39" Text="Korisnik:" FontAttributes="Bold"/>
+                                    <Entry HorizontalTextAlignment="Center" Text="{Binding Klijent.KorisnickoIme}" IsReadOnly="True"/>
+                                    
+                                    <Label HorizontalTextAlignment="Center" TextColor="#a6ca39" Text="Ocjena:" FontAttributes="Bold"/>
+                                    <Entry HorizontalTextAlignment="Center" Text="{Binding Ocjena}" IsReadOnly="True"/>
+
+                                    <Label HorizontalTextAlignment="Center" TextColor="#a6ca39" Text="Komentar:" FontAttributes="Bold"/>
+                                    <Entry HorizontalTextAlignment="Center" Text="{Binding Komentar}" IsReadOnly="True"/>
+
+
+
+                                </StackLayout>
+
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,456 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RatingConception</name>
+    </assembly>
+    <members>
+        <member name="T:LaavorRatingConception.ColorUI">
+            <summary>
+            ColorUI 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Black">
+            <summary>
+            Black
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Blue">
+            <summary>
+            Blue
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Gray">
+            <summary>
+            Gray
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Green">
+            <summary>
+            Green
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Red">
+            <summary>
+            Red
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Yellow">
+            <summary>
+            Yellow
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Orange">
+            <summary>
+            Orange
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Pink">
+            <summary>
+            Pink
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.White">
+            <summary>
+            White
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.BlueLight">
+            <summary>
+            BlueLight
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.YellowLight">
+            <summary>
+            YellowLight
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.GreenLight">
+            <summary>
+            GreenLight
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Brown">
+            <summary>
+            Brown
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Purple">
+            <summary>
+            Purple 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Turquoise">
+            <summary>
+            Turquoise 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.PinkLight">
+            <summary>
+            PinkLight 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.BlueSky">
+            <summary>
+            BlueSky
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.GrayLight">
+            <summary>
+            GrayLight
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.RedLight">
+            <summary>
+            RedLight
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.OrangeLight">
+            <summary>
+            OrangeLight
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.YellowDark">
+            <summary>
+            YellowDark
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.GreenDark">
+            <summary>
+            GreenDark
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.BlueDark">
+            <summary>
+            BlueDark
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Aqua">
+            <summary>
+            Aqua
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.Tan">
+            <summary>
+            Tan
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.GreenDarkness">
+            <summary>
+            GreenDarkness
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.ColorUI.BlueViolet">
+            <summary>
+            BlueViolet
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.DesignType">
+            <summary>
+            DesignType
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.DesignType.Standard">
+            <summary>
+            Standard 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.DesignType.Fit">
+            <summary>
+            Fit
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.DrawType">
+            <summary>
+            DrawType
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.DrawType.Star">
+            <summary>
+            Star 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.DrawType.Heart">
+            <summary>
+            Heart
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.Vivacity">
+            <summary>
+            Vivacity
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.Vivacity.Increase">
+            <summary>
+            Increase
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.Vivacity.Decrease">
+            <summary>
+            Decrease
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.Vivacity.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.Depth">
+            <summary>
+            Depth
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.Depth.Small">
+            <summary>
+            Small
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.Depth.LessMedium">
+            <summary>
+            LessMedium
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.Depth.Medium">
+            <summary>
+            Medium
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.VivacityMode">
+            <summary>
+            VivacityMode
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.VivacityMode.Single">
+            <summary>
+            Single
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.VivacityMode.All">
+            <summary>
+            All
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.VivacitySpeed">
+            <summary>
+            VivacitySpeed 
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.VivacitySpeed.LessSlow">
+            <summary>
+            LessSlow
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.VivacitySpeed.Slow">
+            <summary>
+            Slow
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.VivacitySpeed.Normal">
+            <summary>
+            Normal
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.VivacitySpeed.Fast">
+            <summary>
+            Fast
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.RatingConception">
+            <summary>
+            Class RatingConception
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.Value">
+            <summary>
+            Returns the value of the voted rating, being numeric starting at 1.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.IndexVoted">
+            <summary>
+            Returns Index of voted rating starting in 0 
+            </summary>
+        </member>
+        <member name="E:LaavorRatingConception.RatingConception.Voted">
+            <summary>
+            Event called when rating is voted
+            </summary>
+        </member>
+        <member name="M:LaavorRatingConception.RatingConception.#ctor">
+            <summary>
+            Constructor of RatingImage
+            </summary>
+        </member>
+        <member name="M:LaavorRatingConception.RatingConception.ResetAll">
+            <summary>
+            Clears the rating value and shows everything in its initial state.
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.IsReadOnlyProperty">
+            <summary>
+            Property to report if rating is for display only.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.IsReadOnly">
+            <summary>
+            Property to report if rating is for display only.
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.BlockVoteProperty">
+            <summary>
+            Property to inform if leave the rating unedited sfter first vote.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.BlockVote">
+            <summary>
+            Property to inform if leave the rating unedited sfter first vote.
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.InitialValueProperty">
+            <summary>
+            Property to inform inital value (preselect Rating).
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.InitialValue">
+            <summary>
+            Property to inform inital value (preselect Rating).
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.SpaceBetweenProperty">
+            <summary>
+            Property to inform SpaceBetween images rating
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.SpaceBetween">
+            <summary>
+            Property to inform SpaceBetween images rating
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.ItemsNumberProperty">
+            <summary>
+            Enter the number of  images you want show in rating.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.ItemsNumber">
+            <summary>
+            Enter the number of  images you want show in rating.
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.ImageHeightProperty">
+            <summary>
+            Enter the image height, represents only one image.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.ImageHeight">
+            <summary>
+            Enter the image height, represents only one image.
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingConception.ImageWidthProperty">
+            <summary>
+            Enter the image width, represents only one image.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.ImageWidth">
+            <summary>
+            Enter the image width, represents only one image.
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.ColorUI">
+            <summary>
+            Set if is ColorUI
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.Vivacity">
+            <summary>
+            Set Vivacity
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.VivacityMode">
+            <summary>
+            Set VivacityMode(Single, All)
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.DesignType">
+            <summary>
+            Set DesignType
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.DrawType">
+            <summary>
+            Set DrawType
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.VivacitySpeed">
+            <summary>
+            VivacitySpeed changes animation speed when selecting an item. 
+            </summary>
+        </member>
+        <member name="P:LaavorRatingConception.RatingConception.Depth">
+            <summary>
+            Set Vivacity
+            </summary>
+        </member>
+        <member name="M:LaavorRatingConception.RatingConception.OnChildAdded(Xamarin.Forms.Element)">
+            <summary>
+            Internal.
+            </summary>
+        </member>
+        <member name="T:LaavorRatingConception.RatingItemImage">
+            <summary>
+            Class RatingImage
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingItemImage.Index">
+            <summary>
+            Index of item is a list
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingItemImage.Number">
+            <summary>
+            Number of item is a list
+            </summary>
+        </member>
+        <member name="F:LaavorRatingConception.RatingItemImage.Voted">
+            <summary>
+            Voted value
+            </summary>
+        </member>
+        <member name="M:LaavorRatingConception.RatingItemImage.#ctor(System.String,LaavorRatingConception.DesignType,LaavorRatingConception.DrawType,LaavorRatingConception.ColorUI,System.Boolean)">
+            <summary>
+            Constructor of RatingItemImage
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+            <param name="designType"></param>
+            <param name="drawType"></param>
+            <param name="isVoted"></param>
+        </member>
+        <member name="M:LaavorRatingConception.RatingItemImage.ChangeColor(System.String,LaavorRatingConception.ColorUI)">
+            <summary>
+            Change ColorUI of Rating
+            </summary>
+            <param name="hash"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:LaavorRatingConception.RatingItemImage.ChangeDesignType(System.String,LaavorRatingConception.DesignType)">
+            <summary>
+            Change DesignType of Rating
+            </summary>
+            <param name="hash"></param>
+            <param name="designType"></param>
+        </member>
+        <member name="M:LaavorRatingConception.RatingItemImage.ChangeDrawType(System.String,LaavorRatingConception.DrawType)">
+            <summary>
+            Change DesignType of Rating
+            </summary>
+            <param name="hash"></param>
+            <param name="drawType"></param>
+        </member>
+        <member name="M:LaavorRatingConception.RatingItemImage.ChangeVoted(System.String,System.Boolean)">
+            <summary>
+            Change If is Voted of Rating
+            </summary>
+            <param name="hash"></param>
+            <param name="wasVoted"></param>
+        </member>
+    </members>
+</doc>

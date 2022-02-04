@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ProdajaMobilnihAplikacija.Mobile.Converters" xmlns:viewModel="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.OcjeneIKomentariPage">
+
+
+    <ContentPage.BindingContext>
+        <viewModel:OcjeneIKomentariViewModel></viewModel:OcjeneIKomentariViewModel>
+    </ContentPage.BindingContext>
+
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageConverter x:Key="imgConv"></local:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+
+    </ContentPage.Content>
+
+
+
+    <StackLayout>
+        <Label TextColor="#aa0300" FontAttributes="Bold" Text="Prikaz ocjena i komentara:" FontSize="Title" HorizontalOptions="Center" />
+
+
+        <ListView ItemsSource="{Binding OcjenaKomentariList}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell >
+                        <StackLayout Padding="10" Orientation="Vertical">
+
+                            <StackLayout >
+                                <Image Margin="0,100,0,70" HeightRequest="90" WidthRequest="90" Grid.Column="0" Source="{Binding Softver.SlikaThumb, Converter={StaticResource imgConv}} ">
+
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"></TapGestureRecognizer>
+                                    </Image.GestureRecognizers>
+
+                                </Image>
+
+                            </StackLayout>
+
+
+                            <Label HorizontalTextAlignment="Center" TextColor="#aa0300" Text="{Binding Softver.Naziv}"
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemTextStyle}"
+                                       FontSize="16" />
+
+                            <Label HorizontalTextAlignment="Center" TextColor="#aa0300" Text="{Binding ocjena}"
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemTextStyle}"
+                                       FontSize="16" />
+
+                            <StackLayout Orientation="Vertical">
+                                <Label HorizontalTextAlignment="Center" TextColor="#aa0300" Text="{Binding Komentar}"
+                                       LineBreakMode="NoWrap"
+                                       Style="{DynamicResource ListItemTextStyle}"
+                                       FontSize="16" />
+
+                            </StackLayout>
+
+                          
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

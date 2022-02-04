@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{448F187A-4564-43B4-A33E-36218B4BE94F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProdajaMobilnihAplikacija.WinUI</RootNamespace>
+    <AssemblyName>ProdajaMobilnihAplikacija.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl, Version=2.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.2.8.1\lib\net40\Flurl.dll</HintPath>
+    </Reference>
+    <Reference Include="Flurl.Http, Version=2.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flurl.Http.2.4.1\lib\net46\Flurl.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RatingConception, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RatingConception.1.4.0\lib\netstandard2.0\RatingConception.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.1.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminEmployee.Designer.cs">
+      <DependentUpon>AdminEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmGrad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmGrad.Designer.cs">
+      <DependentUpon>frmGrad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmGradDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmGradDetalji.Designer.cs">
+      <DependentUpon>frmGradDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmKategorija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmKategorija.Designer.cs">
+      <DependentUpon>frmKategorija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmKategorijaDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmKategorijaDetalji.Designer.cs">
+      <DependentUpon>frmKategorijaDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmOcjenaDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmOcjenaDetalji.Designer.cs">
+      <DependentUpon>frmOcjenaDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmZaposlenikDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmZaposlenikDetalji.Designer.cs">
+      <DependentUpon>frmZaposlenikDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmAnalizaDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmAnalizaDetalji.Designer.cs">
+      <DependentUpon>frmAnalizaDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmDetaljiSoftvera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmDetaljiSoftvera.Designer.cs">
+      <DependentUpon>frmDetaljiSoftvera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmDodajSoftver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmDodajSoftver.Designer.cs">
+      <DependentUpon>frmDodajSoftver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmKlijentDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmKlijentDetalji.Designer.cs">
+      <DependentUpon>frmKlijentDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frmZaposlenik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frmZaposlenik.Designer.cs">
+      <DependentUpon>frmZaposlenik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ocjene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Ocjene.Designer.cs">
+      <DependentUpon>Ocjene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APIService.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pocetna\frmPocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocetna\frmPocetna.Designer.cs">
+      <DependentUpon>frmPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pocetna\frmPocetnaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocetna\frmPocetnaAdmin.Designer.cs">
+      <DependentUpon>frmPocetnaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmAnaliza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmAnaliza.Designer.cs">
+      <DependentUpon>frmAnaliza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmKlijent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmKlijent.Designer.cs">
+      <DependentUpon>frmKlijent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmPregledSoftvera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmPregledSoftvera.Designer.cs">
+      <DependentUpon>frmPregledSoftvera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmRacun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmRacun.Designer.cs">
+      <DependentUpon>frmRacun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmRacunDetalji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmRacunDetalji.Designer.cs">
+      <DependentUpon>frmRacunDetalji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenik\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenik\frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminEmployee.resx">
+      <DependentUpon>AdminEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmGrad.resx">
+      <DependentUpon>frmGrad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmGradDetalji.resx">
+      <DependentUpon>frmGradDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmKategorija.resx">
+      <DependentUpon>frmKategorija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmKategorijaDetalji.resx">
+      <DependentUpon>frmKategorijaDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmOcjenaDetalji.resx">
+      <DependentUpon>frmOcjenaDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmZaposlenikDetalji.resx">
+      <DependentUpon>frmZaposlenikDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmAnalizaDetalji.resx">
+      <DependentUpon>frmAnalizaDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmDetaljiSoftvera.resx">
+      <DependentUpon>frmDetaljiSoftvera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmDodajSoftver.resx">
+      <DependentUpon>frmDodajSoftver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmKlijentDetalji.resx">
+      <DependentUpon>frmKlijentDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frmZaposlenik.resx">
+      <DependentUpon>frmZaposlenik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Ocjene.resx">
+      <DependentUpon>Ocjene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocetna\frmPocetna.resx">
+      <DependentUpon>frmPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocetna\frmPocetnaAdmin.resx">
+      <DependentUpon>frmPocetnaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Settings\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmAnaliza.resx">
+      <DependentUpon>frmAnaliza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmKlijent.resx">
+      <DependentUpon>frmKlijent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmPregledSoftvera.resx">
+      <DependentUpon>frmPregledSoftvera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmRacun.resx">
+      <DependentUpon>frmRacun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmRacunDetalji.resx">
+      <DependentUpon>frmRacunDetalji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenik\frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProdajaMobilnihAplikacija.Model\ProdajaMobilnihAplikacija.Model.csproj">
+      <Project>{91804b3a-5fae-49bf-a3a9-681866bd4791}</Project>
+      <Name>ProdajaMobilnihAplikacija.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" />
+</Project>

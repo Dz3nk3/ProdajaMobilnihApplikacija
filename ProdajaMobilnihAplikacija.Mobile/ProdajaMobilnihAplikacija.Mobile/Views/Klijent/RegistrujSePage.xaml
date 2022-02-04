@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.RegistrujSePage">
+    <ContentPage.Content>
+        <StackLayout Padding="10" VerticalOptions="CenterAndExpand">
+
+            <StackLayout BackgroundColor="#a6ca39">
+                <StackLayout HeightRequest="15"></StackLayout>
+
+                <Label Text="Registruj se!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontAttributes="Bold" TextColor="White"
+                FontSize="Title"/>
+
+                <StackLayout HeightRequest="15"></StackLayout>
+            </StackLayout>
+
+            <Label Text="Ime"></Label>
+            <Entry Text="{Binding _Ime}"></Entry>
+
+            <Label Text="Prezime"></Label>
+            <Entry Text="{Binding _Prezime}"></Entry>
+
+            <Label Text="Adresa"></Label>
+            <Entry Text="{Binding _Adresa}"></Entry>
+
+            <Label Text="Datum rođenja"></Label>
+            <DatePicker Date="{Binding _DatumRodjenja}" Format="dd-MM-yyyy" ></DatePicker>
+
+
+            <Label Text="Email"></Label>
+            <Entry Text="{Binding _Email}"></Entry>
+            <Label Text="Broj telefona"></Label>
+            <Entry Text="{Binding _BrojTelefona}"></Entry>
+
+            <Label Text="Korisničko ime"></Label>
+            <Entry Text="{Binding _KorisnickoIme}"></Entry>
+
+            <Label  Text="Lozinka"></Label>
+            <Entry Text="{Binding _Password}" IsPassword="True"></Entry>
+
+            <Label  Text="Potvrda lozinke"></Label>
+            <Entry Text="{Binding _PasswordConfirmation}" IsPassword="True"></Entry>
+
+            <Button TextColor="White" BackgroundColor="#a6ca39" Command="{Binding RegistracijaCommand}" HorizontalOptions="FillAndExpand" Font="Bold,17" Text="Registruj se"></Button>
+
+            <Button TextColor="White" BackgroundColor="Red" Clicked="Button_Clicked_1" HorizontalOptions="FillAndExpand" Font="Bold,17" Text="Prekini registraciju"></Button>
+
+            <!--WidthRequest="400" FontAttributes="Bold"-->
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

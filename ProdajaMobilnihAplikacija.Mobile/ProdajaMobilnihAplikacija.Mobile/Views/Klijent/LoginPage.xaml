@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:viewModel="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent"
+             mc:Ignorable="d"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.LoginPage">
+    
+    <ContentPage.BindingContext>
+        <viewModel:LoginViewModel></viewModel:LoginViewModel>
+    </ContentPage.BindingContext>
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="35" 
+                     VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="FillAndExpand">
+
+
+                <Image Source="android_app.png" Margin="0,100,0,70" HeightRequest="250" WidthRequest="450"/>
+
+
+                <StackLayout Padding="10">
+                    <StackLayout HorizontalOptions="Center">
+                        <Label HorizontalOptions="Center" FontAttributes="Bold" TextColor="#a6ca39" Text="Username:" />
+                        <Entry HorizontalTextAlignment="Center" VerticalOptions="Center" WidthRequest="400" TextColor="#a6ca39" x:Name="Username" Text="{Binding Username}" Placeholder = "Username" ClearButtonVisibility="WhileEditing"></Entry>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="Center">
+                        <Label HorizontalOptions="Center" FontAttributes="Bold" TextColor="#a6ca39" Text="Password:" />
+                        <Entry HorizontalTextAlignment="Center" VerticalOptions="Center" WidthRequest="400" TextColor="#a6ca39" x:Name="Password"  Text="{Binding Password}" Placeholder = "Password" IsPassword="true"></Entry>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout HorizontalOptions="Center">
+                    <Button VerticalOptions="Center" WidthRequest="400" FontAttributes="Bold" TextColor="White" BackgroundColor="#a6ca39" Command="{Binding LoginCommand}" HorizontalOptions="FillAndExpand" Text="Login"></Button>
+                    <Label HorizontalOptions="Center" IsVisible="{Binding IsBusy}" TextColor="#a6ca39" Text="Working..."></Label>
+                </StackLayout>
+
+
+                <Label TextColor="#a6ca39" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Text="Registruj se" Margin="0,5,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="RegisterLabel" Tapped="RegisterLabel_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

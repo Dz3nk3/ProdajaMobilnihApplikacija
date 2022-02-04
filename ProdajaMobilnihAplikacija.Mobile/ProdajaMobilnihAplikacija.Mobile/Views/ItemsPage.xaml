@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:vm="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent" xmlns:converters="clr-namespace:ProdajaMobilnihAplikacija.Mobile.Converters"
+             mc:Ignorable="d"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.ItemsPage"
+             Title="{Binding Title}"
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.BindingContext>
+        <vm:PocetnaViewModel></vm:PocetnaViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ImageConverter x:Key="imgConv"></converters:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout BackgroundColor="#a6ca39">
+
+                <StackLayout HeightRequest="15"></StackLayout>
+                <Label Text="Dobrodošli"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontAttributes="Bold" TextColor="White"
+                FontSize="Title"/>
+                <StackLayout HeightRequest="15"></StackLayout>
+
+            </StackLayout>
+
+
+            <SearchBar TextColor="#a6ca39" PlaceholderColor="#a6ca39"
+                           Placeholder="Pretražite..."
+                       Text="{Binding SearchTerm}"
+                       SearchCommand="{Binding SearchTerm}"
+                       IsVisible="{Binding SearchVisible}"
+            ></SearchBar>
+
+
+        <!--<StackLayout Orientation="Horizontal" VerticalOptions="Fill">
+            <Button HorizontalOptions="FillAndExpand" Font="Bold,17" BackgroundColor="#ca223e" TextColor="White" Text="Trazi..." Clicked="Button_Clicked"></Button>
+        </StackLayout>-->
+
+
+        <StackLayout>
+                <ListView ItemsSource="{Binding SoftverList}" ItemSelected="ListView_ItemSelected" IsPullToRefreshEnabled="True" IsVisible="{Binding SearchVisible}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+
+                                    <StackLayout Padding="10" Orientation="Horizontal" HorizontalOptions="Start">
+                                        <StackLayout>
+                                            <Frame CornerRadius="50" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" Padding="0" IsClippedToBounds="True">
+                                                <Image Margin="0,10,0,7" HeightRequest="200" WidthRequest="200" Source="{Binding SlikaThumb, Converter={StaticResource imgConv}} ">
+                                                    <Image.GestureRecognizers>
+                                                        <TapGestureRecognizer ></TapGestureRecognizer>
+                                                    </Image.GestureRecognizers>
+                                                </Image>
+                                            </Frame>
+                                        </StackLayout>
+
+                                        <!--//-->
+                                        <StackLayout Orientation="Vertical" HorizontalOptions="End">
+                                            <StackLayout>
+                                                <StackLayout HeightRequest="15"></StackLayout>
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <Label Grid.Column="0" Text="Naziv:"  FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                                    <Label Grid.Column="1" TextColor="#a6ca39" Text="{Binding Naziv}" LineBreakMode="NoWrap" HorizontalTextAlignment="Start"
+                                                      Style="{DynamicResource ListItemDetailTextStyle}" FontSize="14"/>
+                                                </Grid>
+                                            </StackLayout>
+
+                                            <StackLayout>
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <Label Grid.Column="0" Text="Verzija:"  FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                                    <Label Grid.Column="1" TextColor="#a6ca39" Text="{Binding Verzija}" LineBreakMode="NoWrap" HorizontalTextAlignment="Start"
+                                                      Style="{DynamicResource ListItemDetailTextStyle}" FontSize="14"/>
+                                                </Grid>
+                                            </StackLayout>
+                                            <StackLayout>
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <Label Grid.Column="0" Text="Cijena:"  FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                                    <Label Grid.Column="1" TextColor="#a6ca39" Text="{Binding Cijena}" LineBreakMode="NoWrap" HorizontalTextAlignment="Start"
+                                                      Style="{DynamicResource ListItemDetailTextStyle}" FontSize="14"/>
+                                                    <Label Grid.Column="2" Text="KM"  FontSize="14" HorizontalTextAlignment="Start"/>
+                                                    <Label Grid.Column="2" Text="KM"  FontSize="14" HorizontalTextAlignment="Start"/>
+                                                </Grid>
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                        <!--//-->
+                                    </StackLayout>
+                                    <BoxView HeightRequest="5" BackgroundColor="#a6ca39" HorizontalOptions="FillAndExpand" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+
+</ContentPage>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Iv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.OstaviKomentar">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <StackLayout Padding="10" Orientation="Vertical">
+
+                <StackLayout Padding="15" VerticalOptions="CenterAndExpand">
+
+                    <Label TextColor="Black" Text="Ocijeni i ostavi komentar:" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" />
+                    <Label />
+                    <BoxView HeightRequest="1" BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                    <Label />
+
+                    <StackLayout>
+
+                        <StackLayout>
+                            <Label IsVisible="False" x:Name="index_star" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+                            <Label IsVisible="False" x:Name="value_star" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"/>
+
+                            <Iv:RatingConception ItemsNumber="5" DrawType="Star"
+                                                 ImageWidth="35" ImageHeight="35" DesignType="Standard" ColorUI="YellowLight"
+                                                InitialValue="{Binding Ocjena}"
+                                                x:Name="ratingStar"
+                                                Margin="0,15,0,15" Voted="ratingStar_Voted"/>
+
+                        </StackLayout>
+
+                        <StackLayout>
+                            <Label  TextColor="#Black" FontAttributes="Bold" Text="Komentar:" />
+                            <Editor Placeholder="Unesite komentar..." Text="{Binding Komentar}" HeightRequest="100"></Editor>
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical">
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Button HorizontalOptions="FillAndExpand" TextColor="White" WidthRequest="235" 
+                            BackgroundColor="#2196F3" FontAttributes="Bold" Text="Ostavi komentar"  
+                            Clicked="Button_Clicked"></Button>
+                    <!--<Button Clicked="Button_Clicked_1" HorizontalOptions="End" TextColor="White" WidthRequest="235"  BackgroundColor="Red" FontAttributes="Bold" Text="Otkaži"></Button>-->
+                </StackLayout>
+
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

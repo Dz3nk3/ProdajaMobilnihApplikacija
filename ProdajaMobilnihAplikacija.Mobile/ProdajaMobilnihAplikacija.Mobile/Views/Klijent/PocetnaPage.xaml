@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ProdajaMobilnihAplikacija.Mobile.Converters" xmlns:viewModel="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.PocetnaPage">
+
+
+
+    <ContentPage.BindingContext>
+        <viewModel:PocetnaViewModel></viewModel:PocetnaViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageConverter x:Key="imgConv"></local:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Label TextColor="#a6ca39" FontAttributes="Bold" Text="Kategorija Aplikacije:" FontSize="Title" HorizontalOptions="Center" />
+
+
+            <Picker ItemsSource="{Binding Kategorija}" SelectedItem="{Binding SelectedTKategorija}" ItemDisplayBinding="{Binding Naziv}"></Picker>
+
+
+
+
+            <Grid Padding="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <CollectionView ItemsSource="{Binding SoftverList}" SelectionMode="Single" x:Name="CVProducts" >
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" VerticalItemSpacing="16"></GridItemsLayout>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid BackgroundColor="White">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout Orientation="Vertical">
+
+                                    <StackLayout >
+                                        <Image Margin="0,100,0,70" HeightRequest="190" WidthRequest="190" Grid.Column="0" Source="{Binding SlikaThumb, Converter={StaticResource imgConv}} ">
+
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer ></TapGestureRecognizer>
+                                            </Image.GestureRecognizers>
+
+                                        </Image>
+
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Vertical" Grid.Column="1">
+                                        <Label FontSize="Subtitle" TextColor="#a6ca39" Text="{Binding Naziv}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" />
+
+
+
+                                        <StackLayout Orientation="Vertical" Grid.Column="1">
+                                            <!--<Label FontSize="Medium" TextColor="#aa0300" Text="Verzija" FontAttributes="Bold"/>-->
+                                            <Entry FontSize="Small" Text="{Binding Verzija}" IsReadOnly="True"/>
+
+                                            <!--<Label FontSize="Medium" TextColor="#aa0300" Text="Cijena" FontAttributes="Bold"/>-->
+                                            <Entry FontSize="Small" Text="{Binding Cijena}" IsReadOnly="True"/>
+
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                </StackLayout>
+
+
+
+
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </Grid>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

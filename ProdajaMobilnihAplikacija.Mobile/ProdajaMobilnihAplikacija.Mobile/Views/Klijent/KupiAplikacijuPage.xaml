@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ProdajaMobilnihAplikacija.Mobile.Converters" xmlns:vm="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.KupiAplikacijuPage">
+
+
+    <!--<ContentPage.BindingContext>
+        <vm:KupiAplikacijuViewModel></vm:KupiAplikacijuViewModel>
+    </ContentPage.BindingContext>-->
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ImageConverter x:Key="imgConv"></local:ImageConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <StackLayout HeightRequest="35"></StackLayout>
+            <StackLayout BackgroundColor="#a6ca39">
+                <Label Text="Kupi aplikaciju"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontAttributes="Bold" TextColor="White"
+                FontSize="Title"/>
+                <StackLayout HeightRequest="35"></StackLayout>
+
+            </StackLayout>
+            
+            <StackLayout Padding="10">
+                <Frame CornerRadius="50" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center" Padding="0" IsClippedToBounds="True">
+                    <Image Margin="0,10,0,10" HeightRequest="200" WidthRequest="200" Grid.Column="0" Source="{Binding SlikaThumb, Converter={StaticResource imgConv}} ">
+
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer ></TapGestureRecognizer>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Frame>
+
+                <StackLayout Padding="55">
+                    <StackLayout Orientation="Horizontal">
+                        <Label  HorizontalOptions="Center" Text="Naziv:" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Label  HorizontalOptions="Center" Text="{Binding Naziv}" VerticalTextAlignment="Center"></Label>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label  HorizontalTextAlignment="Center" Text="Verzija:" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Label  HorizontalTextAlignment="Center" Text="{Binding Verzija}" VerticalTextAlignment="Center"></Label>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label  HorizontalTextAlignment="Center" Text="Cijena:" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Label  HorizontalTextAlignment="Center" Text="{Binding Cijena}" VerticalTextAlignment="Center"></Label>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label  HorizontalTextAlignment="Center" Text="Kategorija:" VerticalTextAlignment="Center" FontAttributes="Bold"></Label>
+                        <Label  HorizontalTextAlignment="Center" Text="{Binding Kategorija}" VerticalTextAlignment="Center"></Label>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Padding="50">
+                    <Button BackgroundColor="#a6ca39" TextColor="White"  BorderColor="Transparent" HorizontalOptions="FillAndExpand" Font="Bold,17" Clicked="Button_Clicked_1" Text="Kupi aplikaciju" Command="{Binding SaveCommand}"></Button>
+                    <Button BackgroundColor="DeepSkyBlue" TextColor="White"  HorizontalOptions="FillAndExpand" Font="Bold,17" Text="Nazad" Clicked="Button_Clicked"></Button>
+                </StackLayout>
+
+               
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

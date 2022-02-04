@@ -1,0 +1,176 @@
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.deps.json
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csprojAssemblyReference.cache
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfoInputs.cache
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfo.cs
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.dll
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.pdb
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CopyComplete
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+C:\Users\KeeN\source\repos\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\SoftverPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.deps.json
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.dll
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.pdb
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csprojAssemblyReference.cache
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\SoftverPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfoInputs.cache
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfo.cs
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CoreCompileInputs.cache
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CopyComplete
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csprojAssemblyReference.cache
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\LoginPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojiKomentariPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojSoftverPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\Racun.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\RegistrujSePage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\SoftverPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfoInputs.cache
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfo.cs
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CoreCompileInputs.cache
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.deps.json
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.dll
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.pdb
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CopyComplete
+D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\KorisnickiPodaciPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.deps.json
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.dll
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.pdb
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.AssemblyReference.cache
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\KorisnickiPodaciPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\LoginPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojiKomentariPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojSoftverPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\OcjeneIKomentariPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\Racun.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\RegistrujSePage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\SoftverPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfoInputs.cache
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfo.cs
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CoreCompileInputs.cache
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CopyComplete
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+D:\ZavrsniRad\ProdajaMobilnihAplikacija\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.deps.json
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.dll
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.pdb
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.AssemblyReference.cache
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\DetaljiSoftveraPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\KorisnickiPodaciPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\KupiAplikacijuPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\LoginPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojiKomentariPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojSoftverPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\OcjeneIKomentariPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\OstaviKomentar.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\PocetnaPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\Racun.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\RegistrujSePage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\SoftverPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfoInputs.cache
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfo.cs
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CopyComplete
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\KeeN\Desktop\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.deps.json
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.dll
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\bin\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Model.pdb
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\DetaljiSoftveraPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\KorisnickiPodaciPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\KupiAplikacijuPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\LoginPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojiKomentariPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\MojSoftverPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\OcjeneIKomentariPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\OstaviKomentar.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\PocetnaPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\Racun.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\RegistrujSePage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\Klijent\SoftverPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfoInputs.cache
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.AssemblyInfo.cs
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.csproj.CopyComplete
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ref\ProdajaMobilnihAplikacija.Mobile.dll
+C:\Users\PC\Downloads\PMA\PMA\ProdajaMobilnihAplikacija.Mobile\ProdajaMobilnihAplikacija.Mobile\obj\Debug\netstandard2.0\ProdajaMobilnihAplikacija.Mobile.pdb

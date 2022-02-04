@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:viewModel="clr-namespace:ProdajaMobilnihAplikacija.Mobile.ViewModels.Klijent"
+             mc:Ignorable="d"
+             x:Class="ProdajaMobilnihAplikacija.Mobile.Views.Klijent.Racun">
+
+
+    <ContentPage.BindingContext>
+        <viewModel:RacunViewModel></viewModel:RacunViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label TextColor="#c9223e" FontAttributes="Bold" Text="Izdati računi:" FontSize="Medium" HorizontalOptions="Center" />
+
+            <ListView ItemsSource="{Binding _RacunList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout Padding="10" Orientation="Vertical">
+
+
+
+                                <StackLayout Orientation="Vertical" HorizontalOptions="End">
+                                    <StackLayout>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Grid.Column="0" FontAttributes="Bold" FontSize="15" Text="Ukupna cijena:"  HorizontalTextAlignment="Center"/>
+                                            <Label Grid.Column="1" TextColor="#aa0300" Text="{Binding UkupnaCijena}" FontSize="14"  HorizontalTextAlignment="Start"></Label>
+                                            <Label Grid.Column="2" TextColor="#aa0300" Text="KM"  FontSize="14" HorizontalTextAlignment="Start"></Label>
+                                        </Grid>
+                                    </StackLayout>
+
+
+                                    <StackLayout>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Grid.Column="0" FontAttributes="Bold" FontSize="15"  Text="Način placanja:"  HorizontalTextAlignment="Center"/>
+                                            <Label Grid.Column="1" TextColor="#aa0300" FontSize="14" HorizontalTextAlignment="Start" Text="Kartično"></Label>
+                                        </Grid>
+                                    </StackLayout>
+
+                                    <StackLayout>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Grid.Column="0" FontAttributes="Bold" FontSize="15"  Text="Ukupan broj dana:"  HorizontalTextAlignment="Center"/>
+                                            <Label Grid.Column="1" TextColor="#aa0300" FontSize="14" HorizontalTextAlignment="Start" Text="{Binding UkupanBrojDana}"></Label>
+                                        </Grid>
+                                    </StackLayout>
+
+                                    <StackLayout>
+                                        <Label  FontAttributes="Bold" FontSize="15" Text="Datum plaćanja:"  HorizontalTextAlignment="Start"/>
+                                        <DatePicker TextColor="#aa0300" FontSize="14" Date="{Binding DatumPlacanja.StringFormat}" IsEnabled="False"></DatePicker>
+                                    </StackLayout>
+
+
+
+                                    <StackLayout Orientation="Vertical">
+                                        <Button FontAttributes="Bold" TextColor="White" BackgroundColor="#4BB543" Clicked="Button_Clicked" Text="Ostavi zahtjev/dojam" ></Button>
+                                    </StackLayout>
+                                </StackLayout>
+
+
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

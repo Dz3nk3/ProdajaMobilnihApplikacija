@@ -1,0 +1,444 @@
+CREATE DATABASE Prodaja_Mobilnog_Softvera
+GO
+
+USE Prodaja_Mobilnog_Softvera
+GO
+
+DROP DATABASE Prodaja_Mobilnog_Softvera
+
+
+--TABELA DRZAVA  ---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Drzava(
+	DrzavaID int identity(1,1) NOT NULL Primary Key, 
+         Naziv varchar(255),
+         Oznaka varchar(50)
+);
+
+insert into Drzava (Naziv,Oznaka)
+  values ('Bosna i Hercegovina','BiH');
+
+  insert into Drzava(Naziv,Oznaka)
+  values ('Hrvatska','HR');
+
+  insert into Drzava(Naziv,Oznaka)
+  values ('Crna Gora','CG');
+
+  insert into Drzava(Naziv,Oznaka)
+  values ('Srbija','SRB');
+
+  insert into Drzava(Naziv,Oznaka)
+  values ('Slovenija','SVN');
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+  
+--TABELA GRAD  ---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Grad(
+	GradID  int identity(1,1) NOT NULL PRIMARY KEY, 
+        Naziv varchar(255),
+        DrzavaID INT FOREIGN KEY REFERENCES Drzava(DrzavaID) 
+);
+
+   insert into Grad(Naziv,DrzavaID)
+  values('Mostar',1);
+  
+   insert into Grad(Naziv, DrzavaID)
+  values('Sarajevo',1);
+  
+   insert into Grad(Naziv, DrzavaID)
+  values('Tuzla',1);
+  
+   insert into Grad(Naziv, DrzavaID)
+  values('Banja Luka',1);
+
+   insert into Grad(Naziv, DrzavaID)
+  values('Zagreb',2);
+
+  insert into Grad(Naziv, DrzavaID)
+  values('Dubrovnik',2);
+
+  insert into Grad(Naziv, DrzavaID)
+  values('Split',2);
+
+
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+--TABELA FAKULTET---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Fakultet(
+	FakultetID  int identity(1,1) NOT NULL PRIMARY KEY, 
+        Naziv varchar(55),
+        Univerzitet varchar(55),
+);
+
+   insert into Fakultet(Naziv, Univerzitet)
+  values('FIT','Univerzitet Dzemal Bijedic');
+  
+  insert into Fakultet(Naziv, Univerzitet)
+  values('DIF','Univerzitet Dzemal Bijedic');
+
+ insert into Fakultet(Naziv, Univerzitet)
+  values('ETF','Univerzitet Sarajevo');
+
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+--TABELA KARTICA---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Kartica(
+	KarticaID  int identity(1,1) NOT NULL PRIMARY KEY, 
+        BrojKartice varchar(55),
+        Broj varchar(55)
+);
+
+   insert into Kartica(BrojKartice, Broj)
+  values('4242424242','123456');
+  
+     insert into Kartica(BrojKartice, Broj)
+  values('4242424242','111111');
+
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+--TABELA Kategorija ---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Kategorija(
+		KategorijaID   int identity(1,1) NOT NULL PRIMARY KEY, 
+		Naziv varchar(50),
+        Oznaka varchar(50),
+		Opis varchar(250),
+);
+
+insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Socijalna applikacija','Social App','Large social networking app');
+
+insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Igrica','Gaming App','Gaming Aplication for fun');
+
+ 
+insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Edukacija','Education App','Aplication for learning');
+
+  insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Mail','Mail App','Aplication for Mail');
+
+    insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Settings','Settings App','Aplication for google settings');
+
+  
+    insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Prodaja','Selling App','Aplication for item selling');
+
+      insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Video','Video App','Aplication for videos');
+
+      insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Muzika','Muzika App','Aplication for music');
+
+      insert into Kategorija(Oznaka, Naziv, Opis)
+  values('Pozivi','Pozivi App','Aplication for making calls');
+
+  SELECT * from Kategorija
+  
+  -----------------------------------------------------------------------------------------------------------------------
+
+ 
+
+
+
+
+  --tabela Softver---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Softver(
+	SoftverID  int identity(1,1) NOT NULL PRIMARY KEY, 
+    Naziv varchar(50),
+    Verzija varchar(50),
+	Cijena float,
+
+	KategorijaID INT FOREIGN KEY REFERENCES Kategorija(KategorijaID),
+	
+
+	SlikaThumb varbinary(max),
+	PositiveDifferent float,
+	Color varchar(50)
+);
+
+ insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Diskord','v5.2',13.9,1, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\discord.png', Single_Blob) as image
+
+
+  insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Facebook','v5.2',13.9,1, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\fb.png', Single_Blob) as image
+
+  insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Gmail','v5.2',13.9,4, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\Gmail.png', Single_Blob) as image
+
+
+    insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Google Album','v5.2',1.9,5, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\googleAlbum.png', Single_Blob) as image
+
+
+     insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Google Play','v5.2',1.1,5, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\GooglePlay.png', Single_Blob) as image
+
+  
+   insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Google Play Store','v5.2',2.9,5, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\GooglePlayStore.png', Single_Blob) as image
+
+       insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Google Services','v5.2',1.0,5, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\googleServices.png', Single_Blob) as image
+
+        insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Instagram','v5.2',3.1,1, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\isntagram.png', Single_Blob) as image
+
+  
+         insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'LinkedIn','v5.2',12.0,1, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\linkedin.png', Single_Blob) as image
+
+
+  
+          insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'OLX','v5.2',2.9,6, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\olx.png', Single_Blob) as image
+
+
+   
+       insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Shazam','v5.2',4.9,8, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\shazam.png', Single_Blob) as image
+
+
+          insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'Viber','v5.2',0,9, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\viber.png', Single_Blob) as image
+
+
+
+       insert into Softver( Naziv, Verzija, Cijena, KategorijaID, SlikaThumb, PositiveDifferent, Color)
+  select 'YouTube','v5.2',0,7, BulkColumn,1,'Green'
+  from Openrowset( Bulk 'D:\PC (late 2020)\PC seminarski\ZavrsniRad\ProdajaMobilnihAplikacija\Slike\YouTube.png', Single_Blob) as image
+
+
+  SELECT * FROM Softver
+  SELECT * FROM Kategorija
+
+  DROP TABLE Softver
+  -----------------------------------------------------------------------------------------------------------------------
+
+  
+
+
+
+
+
+  --tabela KorisnickiNalog  ---------------------------------------------------------------------------------------------------
+
+  CREATE TABLE KorisnickiNalog(
+	KorisnickiNalogID  int identity(1,1) NOT NULL PRIMARY KEY,  
+    TipKorisnickogNaloga varchar(50)
+);
+
+
+insert into KorisnickiNalog(TipKorisnickogNaloga)
+  values('Administartor');
+
+insert into KorisnickiNalog(TipKorisnickogNaloga)
+  values('Zaposlenik');
+
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+   
+
+  --tabela Klijent  ---------------------------------------------------------------------------------------------------
+
+
+   
+CREATE TABLE Klijent(
+	KlijentID int identity(1,1) NOT NULL PRIMARY KEY,  
+    Ime varchar(60),
+    Prezime varchar(60),
+    BrojTel  varchar(20),
+    Email  varchar(150),
+    Adresa   varchar(150),
+    Datum_rodjenja varchar(50),
+    GradID  INT FOREIGN KEY REFERENCES Grad(GradID),
+ 	KarticaID  INT FOREIGN KEY REFERENCES Kartica(KarticaID),
+	LozinkaHash varchar(150),
+	LozinkaSalt varchar(150),
+	KorisnickoIme varchar(50),
+	SlikaThumb varbinary(max)
+);
+
+
+
+insert into Klijent(Ime, Prezime, BrojTel,Email,Adresa,Datum_rodjenja,GradID,KarticaID,KorisnickoIme,SlikaThumb)
+  values('Goran','Skondric','061-111-211','gogyOneKenoby@gmail.com','Mostar','15.10.1991',1,1,'GogyOneKenobi',0);
+
+insert into Klijent(Ime, Prezime, BrojTel,Email,Adresa,Datum_rodjenja,GradID,KarticaID,KorisnickoIme,SlikaThumb)
+  values('Klijent','Klijent','061-111-111','klijent@gmail.com','Mostar','15.10.1991',1,1,'Klijent',0);
+
+
+  drop table Klijent
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+  --tabela Zaposlenik  ---------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE Zaposlenik(
+		ZaposlenikID int identity(1,1) NOT NULL PRIMARY KEY,  
+		Ime nvarchar(60),
+		Prezime nvarchar(60),
+		Email  nvarchar(150),
+		Kontakt_br  nvarchar(16),
+	    Datum_rodjenja varchar(50),
+		Spol  nvarchar(10),
+
+		LozinkaHash nvarchar(255),
+		LozinkaSalt nvarchar(255),
+		KorisnickoIme nvarchar(50),
+		Aktivan bit,
+
+
+	    GradID    INT FOREIGN KEY REFERENCES Grad(GradID),
+	    FakultetID  INT FOREIGN KEY REFERENCES Fakultet(FakultetID),
+	    KorisnickiNalogID INT FOREIGN KEY REFERENCES KorisnickiNalog(KorisnickiNalogID)
+);
+
+insert into Zaposlenik(Ime, Prezime,Email,Kontakt_br,Datum_rodjenja,Spol,LozinkaHash,LozinkaSalt,KorisnickoIme,Aktivan,GradID,FakultetID,KorisnickiNalogID)
+  values('Zanin','Vejzovic','Zanin.Vejzovic@gmail.com','063-222-333','10.10.1991','Musko','633p39KPUkdJTx9ciSYtoRNRLJA=','TJT1hXpabDs4H6unLfOpZw==','Zanin',1,1,1,2);
+
+insert into Zaposlenik(Ime, Prezime,Email,Kontakt_br,Datum_rodjenja,Spol,LozinkaHash,LozinkaSalt,KorisnickoIme,Aktivan,GradID,FakultetID,KorisnickiNalogID)
+  values('Denis','Music','Denis@gmail.com','062-333-333','10.10.1991','Musko','633p39KPUkdJTx9ciSYtoRNRLJA=','TJT1hXpabDs4H6unLfOpZw==','Denis',1,1,1,2);
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+  --tabela Racun  ---------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE Racun(
+		RacunID  int identity(1,1) NOT NULL PRIMARY KEY, 
+		Datum    datetime, 
+		Cijena float,
+		Kolicina int,
+	    NacinPlacanja nvarchar(50)
+);
+
+
+ insert into Racun(Datum, Cijena, Kolicina,NacinPlacanja)
+  values(10/10/2020,13.1,1,'Kartica');
+
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+  
+  --tabela Narudzba ---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Narudzba (
+	NarudzbaID  int identity(1,1) NOT NULL PRIMARY KEY, 
+    Naziv nvarchar(50),
+	Datum_narudzbe datetime,
+
+	KlijentID INT FOREIGN KEY REFERENCES Klijent(KlijentID),
+	RacunID INT FOREIGN KEY REFERENCES Racun(RacunID),
+	
+	
+);
+
+ insert into Narudzba(Naziv, Datum_narudzbe, KlijentID,RacunID)
+  values('Kupovina',10/10/2020,1,1);
+
+  SELECT * FROM Narudzba
+  SELECT * FROM Softver
+  -----------------------------------------------------------------------------------------------------------------------
+
+  
+  --tabela SoftverNarudzba---------------------------------------------------------------------------------------------------
+
+CREATE TABLE SoftverNarudzba(
+	SoftverNarudzbaID  int identity(1,1) NOT NULL PRIMARY KEY, 
+    Kolicina int,
+	Ocjena int,
+	Komentar nvarchar(255),
+
+	SoftverID INT FOREIGN KEY REFERENCES Softver(SoftverID),
+	NarudzbaID INT FOREIGN KEY REFERENCES Narudzba(NarudzbaID),
+	
+	
+);
+
+ insert into SoftverNarudzba(Kolicina, Ocjena, Komentar,SoftverID,NarudzbaID)
+  values(1,5,'Odlicna aplikacija',1,1);
+
+  SELECT * FROM Narudzba
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+  --TABELA ANALIZA  ---------------------------------------------------------------------------------------------------
+
+CREATE TABLE Analiza(
+	 AnalizaID int identity(1,1) NOT NULL Primary Key, 
+         Naziv varchar(255),
+         Datum_analize varchar(30),
+	 
+	KlijentID INT FOREIGN KEY REFERENCES Klijent(KlijentID),
+	ZaposlenikID INT FOREIGN KEY REFERENCES Zaposlenik(ZaposlenikID),
+	SoftverID INT FOREIGN KEY REFERENCES Softver(SoftverID),
+
+);
+
+
+insert into Analiza(Naziv,Datum_analize,KlijentID,ZaposlenikID,SoftverID)
+  values ('Prodaja Diskord-a','10.10.2020',1,1,1);
+
+  
+
+
+  -----------------------------------------------------------------------------------------------------------------------
+
+
+
+  --tabela Ocjena  ---------------------------------------------------------------------------------------------------
+
+
+CREATE TABLE Ocjena(
+		OcjenaID  int identity(1,1) NOT NULL PRIMARY KEY, 
+		ocjena int,
+		Komentar nvarchar(255),
+
+		SoftverNarudzbaID INT FOREIGN KEY REFERENCES SoftverNarudzba(SoftverNarudzbaID),
+		SoftverID INT FOREIGN KEY REFERENCES Softver(SoftverID),
+		KlijentID INT FOREIGN KEY REFERENCES Klijent(KlijentID)
+);
+
+
+
+  -----------------------------------------------------------------------------------------------------------------------
